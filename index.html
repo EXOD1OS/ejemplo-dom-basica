@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM básica - curso Práctico de Javascript</title>
+</head>
+<body>
+    <h1>Manipulacion del DOM básica</h1>
+    <h2 class="verde" pantalla="Samsung">Manipulacion del DOM</h2>
+
+    <p>Esto es un parrafo</p>
+    <p class="parrafito">Esto es un parrafo con clase</p>
+    <p id="pid">Esto es un parrafo con id</p>
+    <input placeholder="Escribe algo aqui">
+
+    <form id="form">
+        <h3>
+            calcular desde Inputs
+                <input id="calculo1" placeholder="Escribe algo aqui">
+                <input id="calculo2" placeholder="Escribe algo aqui" onchange="console.log('Cambio en el input')">
+                <button id="btnCalcular">Calcular</button>
+                 <p id="result"></p>
+        </h3>
+        
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
